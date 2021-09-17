@@ -1,0 +1,105 @@
+/* Estilos da página index */
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.fonte-1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-lado-a-lado{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 50px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+#menu li a:hover{
+    color: #f7e54b;
+}
+
+.p-text{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 40%;
+}
+
+.br-video{
+    padding: 10px;
+    background-color:#f7e54b;
+    border-radius: 8%
+}
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+}
+
+.efeito-1{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.efeito-1:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.efeito-2{
+    transition: all .5s;
+    border: 10px solid #eeeeee;
+}
+.efeito-2:hover{
+    border: 10px solid #f7e54b;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+}
+
+.efeito-3{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.efeito-3:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.efeito-4{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.efeito-4:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+/* Estilos da página contato */
