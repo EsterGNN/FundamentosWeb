@@ -7,7 +7,7 @@
     <title>RESPOSTA</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="fundo">
     <ul id="menu" class="center fonte-1">
         <li>
             <a href="index.html">LEIA AQUI </a>
@@ -28,9 +28,16 @@
     <div class="container fonte-1">
         <form>
             <label for="resposta">Texto livre: </label><br>
-            <textarea name="resposta" id="resposta" cols="80" rows="30"></textarea>
+            <textarea name="resposta" id="resposta" cols="80" rows="30" onkeyup='validaResposta()'></textarea>
+            <div id="txtResposta"></div>
+            <br>
+            <label for="nome">Gostaria de saber, qual seu nome? Ou melhor, como posso te chamar?</label> 
+            <br>
+            <input type="text" id="nome" onkeyup='validaNome()'>
+            <div id="txtNome"></div>
+            <br>
         </form>
-        <button>Enviar</button>
+        <button onclick='enviar()'>Enviar</button>
     </div>
 
     <hr>
@@ -52,5 +59,7 @@
         </div>
     </footer>
     
+    <script src="assets/js/script.js"></script>
+
 </body>
 </html>
